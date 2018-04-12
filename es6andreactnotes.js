@@ -18,3 +18,57 @@ var a = [1, 2, 3];
 //TypeScript syntax is a superset of JavaScript(Ecmascript). ... The biggest distinctive feature is that TypeScript supports optional types. But ES6 or ES2015 is a subset of TypeScript - anything you write in ES2015 is valid TS. So main differences are type annotations, interface support and some much more robust tooling.
 
 // when importing  a component make sure to capitalize the first letter of the name of the component.
+
+//const {name, value} = event.target this is the same as:
+//const name = event.target.name  and
+//const value = event.target.value
+
+//The state function is what allows components to update live
+
+//when using react-router-dom addon you have to use <link/> instead of <a/> tags.
+
+// What is react?
+    
+//     JavaScript framework for UI
+
+//     Single Page Application Framework
+
+//     uses component architecture
+
+//     $('#container')
+
+
+// Why should we use react?
+    
+//     because as soon as you update the state, the document updates everywhere automatically
+
+//     as opposed to html, css, jQuery where if a variable updates, you have to update it everywhere
+
+
+// Why do we use es6, es7...
+
+//     react works with classic JavaScript, but all of the documentation, stock over flow posts, they're all using es6
+
+//     arrow functions
+
+//         'this' inside the arrow function is the same outside the arrow function
+
+{/* <button id="clickme">stuff</button>
+
+function sayHi(x){
+	alert(x);
+}
+
+//incorrect
+	$('#clickme').on('click', sayHi('hi')) 
+
+//classic js way correct
+	$('#clickme').on('click', function(){
+		sayHi('hi');
+	})
+
+//es6 way correct
+	$('#clickme').on('click', () => sayHi('hi')) */}
+
+// "proxy": "http://localhost:3001", 
+// prepends all relative addresses to the localhost:3001 if on localhost.
