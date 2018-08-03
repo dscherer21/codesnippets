@@ -72,3 +72,5 @@ function sayHi(x){
 
 // "proxy": "http://localhost:3001", 
 // prepends all relative addresses to the localhost:3001 if on localhost.
+
+// if your props are returning null values try check your database to see if your seed file was fully seeded.
