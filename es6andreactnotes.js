@@ -74,3 +74,8 @@ function sayHi(x){
 // prepends all relative addresses to the localhost:3001 if on localhost.
 
 // if your props are returning null values try check your database to see if your seed file was fully seeded.
+
+// In React, if you decide to use inline styles, you need to make it into an object instead of a string. ex:
+<span style='color: rgba(100,100,100,1);'>Hello</span> // This is incorrect and will cause your whole component to not display.
+
+<span style={{ color: 'rgba(100,100,100,1)'}}>Hello</span> //This is the correct syntax to do inline styles in React.
