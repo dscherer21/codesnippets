@@ -1,3 +1,5 @@
+
+//bubbleSort lets you take an array of integers and sort them numberically.
 var arr = [3,1,7,2,2,9];
 
 function bubbleSort(arr) {
@@ -30,7 +32,7 @@ function bubbleSort(arr) {
     return arr;
 } 
 
-
+//MergeSort is when you have 2 arrays that you want to merge into one and sort it.
 var first = [4,15,16,50];
 var second = [8,23,48,108,109,111,112,113];
 var c = [];
